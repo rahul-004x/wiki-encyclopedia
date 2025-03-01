@@ -22,32 +22,26 @@ A Wikipedia-like online encyclopedia built with Django. This project allows user
 
 1. Clone the repository
    ```
-   git clone <repository-url>
+   git clone https://github.com/rahul-004x/wiki-encyclopedia.git
    cd wiki
    ```
 
-2. Create a virtual environment (optional but recommended)
-   ```
-   python -m venv venv
-   source venv/bin/activate  # On Windows, use: venv\Scripts\activate
-   ```
-
-3. Install dependencies
+2. Install dependencies
    ```
    pip install -r requirements.txt
    ```
 
-4. Run migrations
+3. Run migrations
    ```
    python manage.py migrate
    ```
 
-5. Start the development server
+4. Start the development server
    ```
    python manage.py runserver
    ```
 
-6. Open your browser and navigate to `http://127.0.0.1:8000/`
+5. Open your browser and navigate to `http://127.0.0.1:8000/`
 
 ## Usage
 
